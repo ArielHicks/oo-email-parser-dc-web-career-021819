@@ -15,10 +15,10 @@ class EmailParser
   end
 
   def parse
-    
+
 
     end
-    email.parse
+    email.parse.uniq
   end
 
 end
