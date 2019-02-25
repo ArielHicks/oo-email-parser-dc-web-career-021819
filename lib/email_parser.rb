@@ -12,7 +12,8 @@ class EmailParser
   end
 
   def parse
-
+    if emails
+      return emails
 
   end
 
